@@ -1,0 +1,244 @@
+@font-face {
+	font-family: raleway;
+	src: url('fonts/Raleway-Regular.ttf');
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: raleway;
+}
+.container {
+	width: 93%;
+	margin: 0 auto;
+}
+#topbar {
+	width: 100%;
+	background: #333;
+	color: #fff;
+	padding: 10px 0;
+}
+#logo {
+	width: 320px;
+	float: left;
+	margin-top: 10px;
+}
+#logo img {
+	width: 100%;
+}
+nav {
+	float: right;
+	margin-top: 20px;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+nav ul li {
+	float: left;
+}
+.clear {
+	clear: both;
+}
+nav ul li a {
+	color: #0168b4;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px 20px;
+	display: block;
+}
+nav ul li a:hover, .active {
+	color: #000;
+}
+.topbar-right{
+	float: right;
+}
+.topbar-right a{
+	text-decoration: none;
+	color: #fff;
+}
+#banner{
+	margin-top: 10px;
+}
+#banner img{
+	width: 100%;
+	display: block;
+}
+.main-heading {
+	text-align: center;
+	font-weight: lighter;
+	margin: 0;
+	padding: 30px;
+}
+.main-heading span {
+	color: #0168b4;
+	font-weight: bold;
+}
+#top-hotels {
+	background: #dbdbdb;
+}
+.col3 {
+	width: 30%;
+	float: left;
+	margin-left: 2.5%;
+	background: #fff;
+	margin-bottom: 20px;
+}
+.col3 img, .col5 img {
+	width: 100%;
+}
+.col3 h3 {
+	padding: 0 10px;
+}
+#tagline {
+	background: url('../images/banner.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 100px 0;
+	color: #fff;
+}
+.col5 {
+	width: 17%;
+	margin-left: 2.5%;
+	float: left;
+}
+#top-brands {
+	padding: 50px 0;
+}
+.col4 {
+	width: 21.875%;
+	margin-left: 2.5%;
+	float: left;
+}
+footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+footer ul li {
+	margin-bottom: 6px;
+}
+footer ul li a {
+	text-decoration: none;
+	color: #000;
+}
+footer ul li a:hover {
+	text-decoration: underline;
+}
+.social-links a {
+	font-size: 30px;
+	color: #333;
+}
+.social-links a:hover {
+	color:#999;
+}
+footer {
+	background: #e1e1e1;
+	padding: 30px 0;
+}
+.topbar-right {
+	float: right;
+}
+.topbar-right a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0 5px;
+}
+#about-page p {
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+}
+img {
+	width: 100%;
+}
+#hotels-page a {
+	text-decoration: none;
+	color: #333;
+	border: 1px solid #ccc;
+	display: block;
+}
+.hotel-images {
+	width: 62%;
+	float: left;
+}
+.hotel-policy {
+	width: 35%;
+	margin-left: 3%;
+	float: left;
+}
+.thumbnail {
+	width: 18.8%;
+	float: left;
+	margin-left: 1%;
+}
+.hotel-policy h3 {
+	text-align: center;
+	background: #0168b4;
+	color: #fff;
+	padding: 10px;
+	margin: 0;
+}
+.border {
+	border: 1px solid #ccc;
+}
+.hotel-policy p {
+	padding: 0 20px;
+}
+#hotel-details p, #hotel-details ul {
+	font-size: 20px;
+}
+#hotel-details h4 {
+	font-size: 24px;
+	text-decoration: underline;
+}
+.col2 {
+	width: 46.25%;
+	margin-left: 2.5%;
+	float: left;
+	margin-bottom: 20px;
+}
+#feedback-form {
+	width: 70%;
+	margin: 0 auto;
+}
+.form-control {
+	width: 96%;
+	padding: 7px 2%;
+}
+select.form-control {
+	width: 100%;
+}
+.col1 {
+	width: 95%;
+	margin-left: 2.5%;
+	margin-bottom: 20px;
+}
+textarea {
+	resize: none;
+}
+.btn-submit {
+	background: #0168b4;
+	color: #fff;
+	padding: 10px 20px;
+	border: 0;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 0.7s;
+}
+.btn-submit:hover {
+	background: #333;
+}
+.contact-form-box {
+	width: 60%;
+	float: left;
+	margin-top: 40px;
+}
+.contact-detail-box {
+	width: 37%;
+	float: left;
+	margin-top: 40px;
+	padding-left: 3%;
+}
